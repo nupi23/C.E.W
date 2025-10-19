@@ -1,0 +1,3 @@
+-Nombre: Calculadora Energetica Web(C.E.W)
+-Descripcion: Este proyecto servira para que el usuario sea consciente de cuantos kilogramos de CO2 suelta a la atmosfera cada día, con diferentes botones, todo en una          página web.
+-Herramientas: html, Jinja
