@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ECOCALCULADORA</title>
+    <link rel="stylesheet" href="static/styile.css">
+<body>
+    <h1>Resultado</h1>
+    {%block target%}
+    <div class="card">
+    <p>{{nombre}}</p>
+    <p>Tú introduces en la atmosfera{{suma}}kg/día de CO2</p>
+    <h2>¡Qué introduce más?</h2>
+    <ul>
+        
+        <li>Pantalla{{pantalla}}</li>
+        <li>Bombillas{{Bombillashoras}}</li>
+        <li>Cantidad de bombillas{{Bombillascant}}</li>
+    </ul>
+    <h2>ME PASO?</h2>
+    <p>{{me_paso}}</p>
+    {%endblock%}
+    <span>¿Quieres diseñar tu propia tarjeta?</span>
+    <a href="{{ url_for('pag_cal2') }}" class="main__link">Diseñala ahora</a>
+</div>
+</body>
+
+</html>
